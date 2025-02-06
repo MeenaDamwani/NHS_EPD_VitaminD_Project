@@ -18,17 +18,15 @@ https://opendata.nhsbsa.net/api/3/action/datastore_search_sql?sql=<SQL_QUERY>
 Replace `<SQL_QUERY>` with your SQL statement.  
 
 ### 2. Example SQL Query to Filter Data  
-Fetch prescribing data for a specific **EPD Month-Year**, **BNF Chemical Substance**, and **Practice Code**:  
+Fetch prescribing data for a specific **resource_id**, **BNF Chemical Substance**, and **Practice Code**:  
 
 ```sql
 SELECT * 
 FROM "resource_id" 
-WHERE "EPD_MONTH_YEAR" = '2023-01' 
-AND "BNF_CHEMICAL_SUBSTANCE" = 'Paracetamol' 
+WHERE "BNF_CHEMICAL_SUBSTANCE" = 'Paracetamol' 
 AND "PRACTICE_CODE" = 'A12345';
 
 Replace "resource_id" with the actual resource ID for the EPD dataset.
-Modify EPD_MONTH_YEAR ('YYYY-MM' format) to filter data by month.
 Update BNF_CHEMICAL_SUBSTANCE to filter by a specific medication.
 Use PRACTICE_CODE to filter by a specific GP practice.
 
