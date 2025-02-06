@@ -31,15 +31,3 @@ Replace "resource_id" with the actual resource ID for the EPD dataset.
 Modify EPD_MONTH_YEAR ('YYYY-MM' format) to filter data by month.
 Update BNF_CHEMICAL_SUBSTANCE to filter by a specific medication.
 Use PRACTICE_CODE to filter by a specific GP practice.
-
-
-
-
-
-
-
-
-
-
-
-
