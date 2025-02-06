@@ -31,3 +31,16 @@ Replace "resource_id" with the actual resource ID for the EPD dataset.
 Modify EPD_MONTH_YEAR ('YYYY-MM' format) to filter data by month.
 Update BNF_CHEMICAL_SUBSTANCE to filter by a specific medication.
 Use PRACTICE_CODE to filter by a specific GP practice.
+
+### 3. Getting the Resource ID
+To obtain the correct `resource_id`, use the API:
+[https://opendata.nhsbsa.net/api/3/action/package_show?id=english-prescribing-data-epd](https://opendata.nhsbsa.net/api/3/action/package_show?id=english-prescribing-data-epd)
+
+## Technologies Used
+- 🐍 **Python**
+- 📓 **Jupyter Notebook**
+- 🛢️ **SQL** for data extraction
+- 🔍 **CKAN API** for open data retrieval
+- 📊 **Pandas** for data manipulation
+- 📈 **Matplotlib & Seaborn** for visualization
+
