@@ -16,11 +16,11 @@ To retrieve data, use the following API endpoint:
 ```sh
 https://opendata.nhsbsa.net/api/3/action/datastore_search_sql?sql=<SQL_QUERY>
 
-
-## Technologies Used  
-- 🐍 **Python**  
-- 📓 **Jupyter Notebook**  
-- 📊 **Pandas** for data manipulation  
-- 🔢 **NumPy** for numerical computations  
-- 📈 **Matplotlib & Seaborn** for data visualization  
+### Technologies Used
+🐍 Python
+📓 Jupyter Notebook
+🛢️ SQL for data extraction
+🔍 CKAN API for open data retrieval
+📊 Pandas for data manipulation
+📈 Matplotlib & Seaborn for visualization
 
